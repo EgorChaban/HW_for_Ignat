@@ -1,18 +1,27 @@
-import React from "react";
+import React, {useState} from "react";
 import Header from "./Header";
 import Routes from "./Routes";
+import {HashRouter} from "react-router-dom";
+import s from "./h5.module.css"
 
 function HW5() {
+    let [collapsed, setCollapsed] = useState<boolean>(false)
+    const showHeader = () => {
+        setCollapsed(!collapsed)
+    }
     return (
-        <div>
+        <div className={s.hwWrap}>
             {/*в gh-pages лучше работает HashRouter*/}
-            {/*<HashRouter>*/}
+            <HashRouter>
 
-            <Header/>
+                <Header
+                    showHeader={showHeader}
+                    collapsed={collapsed}
+                />
 
-            <Routes/>
+                <Routes/>
 
-            {/*</HashRouter>*/}
+            </HashRouter>
         </div>
     );
 }
