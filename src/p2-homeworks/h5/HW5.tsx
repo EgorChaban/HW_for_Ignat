@@ -11,7 +11,7 @@ function HW5() {
     }
     return (
         <div className={s.hwWrap}>
-            {/*в gh-pages лучше работает HashRouter*/}
+
             <HashRouter>
 
                 <Header

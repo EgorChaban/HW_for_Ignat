@@ -6,7 +6,7 @@ type HeaderPropsType = {
     collapsed: boolean
     showHeader: () => void
 }
-//function
+
 function Header(props: HeaderPropsType) {
     const arrowClassName = `${s.arrow}  ${props.collapsed === false ? '' : s.arrowClosed}`
     const headerClassName = `${s.header} ${props.collapsed === false ? '' : s.headerClosed}`
