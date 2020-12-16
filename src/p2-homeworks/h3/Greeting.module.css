@@ -1,0 +1,23 @@
+.wrapper{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.someClass {
+
+}
+
+.error {
+    border: 2px solid red;
+}
+.error_message{
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.errorInputNew {
+    border-bottom: 3px solid #e8120e;
+    transition: 0.8s ease all;
+}
+

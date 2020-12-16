@@ -1,0 +1,51 @@
+.inputWrap{
+    position: relative;
+    margin-bottom: 20px;
+}
+.inputStyle{
+    width: 350px;
+    height: 85px;
+    border: none;
+    background-color: #838583;
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.superInput {
+
+    border-bottom: 3px solid green;
+}
+
+.superInput:focus{
+    outline: none;
+
+}
+
+.errorInput {
+    border-bottom: 3px solid #e8120e;
+    transition: 0.8s ease all;
+}
+.errorInput:focus {
+    outline: none;
+    border-bottom: 3px solid #e8120e;
+
+
+}
+
+
+.error {
+    position:absolute;
+    left: 20%;
+    top: 20%;
+    color: #ff0000;
+    font-size: 29px;
+    transition: 0.3s ease all;
+}
+.errorInput:focus ~ label{
+    top: 0px;
+    left: 15px;
+    opacity: 50%;
+    font-size: 20px;
+}

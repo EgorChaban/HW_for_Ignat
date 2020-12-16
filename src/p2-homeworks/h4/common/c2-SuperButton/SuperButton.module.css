@@ -1,0 +1,57 @@
+@keyframes blick {
+    0% {
+        left: -130%;
+    }
+    100% {
+        left: 130%;
+    }
+}
+
+.default {
+    outline: none;
+    border-bottom: 2px solid #a2a4a2;
+    transition: 0.5s ease all;
+    font-size: 16px;
+    padding: 5px 16px;
+    background-color: #7d7f7d;
+    color: #dfe3df;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.default::after {
+    display: block;
+    content: '';
+    left: -130%;
+    top: 0px;
+    height: 100%;
+    width: 20%;
+    transform: skew(45deg);
+    z-index: 1;
+    position: absolute;
+    background-color: #ffffff;
+    opacity: 70%;
+
+}
+
+.default:hover::after {
+    animation: blick 0.35s ease;
+}
+
+.default:hover {
+    background-color: #656765;
+    cursor: pointer;
+}
+
+.default:focus {
+    outline: none;
+}
+
+.default:focus::after {
+    display: none;
+}
+
+.red {
+    background: red;
+}

@@ -1,0 +1,30 @@
+.wrapper{
+    height: 300px;
+    position: relative;
+}
+.affair{
+    display: flex;
+    width: 25%;
+    margin: 0 auto 10px auto;
+}
+.affairWrap{
+
+    background-color: #7d7f7d;
+    border-bottom: 1px solid #686a68;
+    border-top: 1px solid #686a68;
+    color: #dfe3df;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    margin-right: 15px;
+
+}
+.btnWrap{
+    position: absolute;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0px;
+}

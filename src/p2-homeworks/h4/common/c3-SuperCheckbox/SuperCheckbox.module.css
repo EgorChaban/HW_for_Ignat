@@ -1,0 +1,30 @@
+.labelWrap{
+    margin-top: 10px;
+    background-color: #7d7f7d;
+    color: #dfe3df;
+    padding: 3px 9px;
+    border-radius: 5px;
+}
+.checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-bottom: 3px solid #4a8efa;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90% 90%;
+    vertical-align: middle;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.checkbox:checked{
+    appearance: none;
+    background-image: url("checked.png");
+}
+.checkbox:focus{
+    outline: none;
+}
+.spanClassName {
+    cursor: pointer;
+}
+
