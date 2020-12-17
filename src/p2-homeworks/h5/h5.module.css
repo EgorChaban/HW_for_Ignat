@@ -13,12 +13,12 @@
     margin: 0 auto;
     transform: translateY(-65%);
     transition: 0.5s ease all;
-    opacity: 30%;
+    opacity: 0.3;
 
 }
 
 .header:hover {
-    opacity: 100%;
+    opacity: 1;
 }
 
 .headerClosed {
