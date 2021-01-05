@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/HW_for_Ignat/static/css/main.f0da78d2.chunk.css",
-    "main.js": "/HW_for_Ignat/static/js/main.13b798b8.chunk.js",
-    "main.js.map": "/HW_for_Ignat/static/js/main.13b798b8.chunk.js.map",
+    "main.css": "/HW_for_Ignat/static/css/main.b85b1c32.chunk.css",
+    "main.js": "/HW_for_Ignat/static/js/main.df9a81e2.chunk.js",
+    "main.js.map": "/HW_for_Ignat/static/js/main.df9a81e2.chunk.js.map",
     "runtime-main.js": "/HW_for_Ignat/static/js/runtime-main.a99273e0.js",
     "runtime-main.js.map": "/HW_for_Ignat/static/js/runtime-main.a99273e0.js.map",
-    "static/js/2.d85847db.chunk.js": "/HW_for_Ignat/static/js/2.d85847db.chunk.js",
-    "static/js/2.d85847db.chunk.js.map": "/HW_for_Ignat/static/js/2.d85847db.chunk.js.map",
+    "static/js/2.d56f5b30.chunk.js": "/HW_for_Ignat/static/js/2.d56f5b30.chunk.js",
+    "static/js/2.d56f5b30.chunk.js.map": "/HW_for_Ignat/static/js/2.d56f5b30.chunk.js.map",
     "index.html": "/HW_for_Ignat/index.html",
-    "precache-manifest.f4da754cfb44f209cdb5122e85981baf.js": "/HW_for_Ignat/precache-manifest.f4da754cfb44f209cdb5122e85981baf.js",
+    "precache-manifest.3946ae3cdaadf8373690e090a84f5718.js": "/HW_for_Ignat/precache-manifest.3946ae3cdaadf8373690e090a84f5718.js",
     "service-worker.js": "/HW_for_Ignat/service-worker.js",
-    "static/css/main.f0da78d2.chunk.css.map": "/HW_for_Ignat/static/css/main.f0da78d2.chunk.css.map",
-    "static/js/2.d85847db.chunk.js.LICENSE.txt": "/HW_for_Ignat/static/js/2.d85847db.chunk.js.LICENSE.txt"
+    "static/css/main.b85b1c32.chunk.css.map": "/HW_for_Ignat/static/css/main.b85b1c32.chunk.css.map",
+    "static/js/2.d56f5b30.chunk.js.LICENSE.txt": "/HW_for_Ignat/static/js/2.d56f5b30.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a99273e0.js",
-    "static/js/2.d85847db.chunk.js",
-    "static/css/main.f0da78d2.chunk.css",
-    "static/js/main.13b798b8.chunk.js"
+    "static/js/2.d56f5b30.chunk.js",
+    "static/css/main.b85b1c32.chunk.css",
+    "static/js/main.df9a81e2.chunk.js"
   ]
 }
