@@ -8,7 +8,7 @@ type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElem
 // (чтоб не писать value: string, onChange: ...; они уже все описаны в DefaultInputPropsType)
 type SuperInputTextPropsType = DefaultInputPropsType & { // и + ещё пропсы которых нет в стандартном инпуте
     onChangeText?: (value: string) => void
-    onEnter?: () => void
+    onEnter?: (e: React.KeyboardEvent<HTMLInputElement>) => void
     error?: string
     spanClassName?: string
 };
@@ -35,7 +35,7 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
 
         e.key === "Enter" // если нажата кнопка Enter
         && onEnter // и есть пропс onEnter
-        && onEnter(); // то вызвать его
+        && onEnter(e); // то вызвать его
     }
 
     const finalSpanClassName = `${s.error} ${spanClassName ? spanClassName : ""}`;
