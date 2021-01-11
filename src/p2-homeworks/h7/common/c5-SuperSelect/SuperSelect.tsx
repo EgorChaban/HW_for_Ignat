@@ -18,11 +18,11 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
     }
 ) => {
     const mappedOptions: JSX.Element[] = options ? options.map((o, index) => <option
-            key={index}>{o} </option>) : [] // map options with key
+            key={index}>{o} </option>) : []
 
     const onChangeCallback = (e: ChangeEvent<HTMLSelectElement>) => {
         onChangeOption(e.currentTarget.value)
-        // onChange, onChangeOption
+
     }
 
     return (
